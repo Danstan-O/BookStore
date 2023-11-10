@@ -1,0 +1,100 @@
+.-members {
+  position: relative;
+  padding-block: 2rem;
+  display: grid;
+  gap: 30px 70px;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 100px 0 100px;
+}
+
+.book-title {
+  margin: 80px;
+}
+
+.bg-book-image {
+  background-repeat: no-repeat;
+  
+  height: auto;
+  
+  margin: 0;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.book-content {
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  right: 30%;
+}
+
+
+@media only screen and (max-width: 1150px) {
+  .book-members {
+    padding-block: 2rem;
+    display: grid;
+    gap: 20px 40px;
+    margin: 0 20px 0 20px;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .book-members {
+    padding-block: 2rem;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 20px 0 20px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .book-members {
+    padding-block: 2rem;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 20px 0 20px;
+  }
+
+  .book-content {
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    right: 30%;
+  }
+
+  .bg-book-image {
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    padding: 180px;
+    margin: 0;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .book-content {
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 4%;
+    left: 0%;
+    right: 0%;
+  }
+
+  .book-title {
+  margin: 30px;
+}
+
+.book-contents {
+  margin: 20px;
+}
+}

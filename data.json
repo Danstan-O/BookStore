@@ -1,0 +1,77 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "BookURL": "./images/placeholder.png",
+      "fullname": "Hello World",
+      "year": "20/02/2022",
+      "isbn": 55566,
+      "quantity": 7
+    },
+    {
+      "id": 2,
+      "BookURL": "./images/placeholder.png",
+      "fullname": "Hello World",
+      "year": "20/02/2022",
+      "isbn": 55566,
+      "quantity": 8
+    },
+    {
+      "id": 3,
+      "BookURL": "./images/placeholder.png",
+      "fullname": "Hello World",
+      "year": "20/02/2022",
+      "isbn": 55566,
+      "quantity": 9
+    },
+    {
+      "id": 4,
+      "BookURL": "./images/placeholder.png",
+      "fullname": "Hello World",
+      "year": "20/02/2022",
+      "isbn": 55566,
+      "quantity": 1
+    },
+    {
+      "id": 5,
+      "BookURL": "./images/placeholder.png",
+      "fullname": "Hello World",
+      "year": "20/02/2022",
+      "isbn": 55566,
+      "quantity": 10
+    },
+    {
+      "id": 6,
+      "BookURL": "./images/placeholder.png",
+      "fullname": "Hello World",
+      "year": "20/02/2022",
+      "isbn": 55566,
+      "quantity": 16
+    },
+    {
+      "id": 7,
+      "BookURL": "./images/placeholder.png",
+      "fullname": "Hello World",
+      "year": "20/02/2022",
+      "isbn": 55566,
+      "quantity": 6
+    },
+    {
+      "id": 8,
+      "BookURL": "./images/placeholder.png",
+      "fullname": "Hello World",
+      "year": "20/02/2022",
+      "isbn": 55566,
+      "quantity": 7
+    },
+    {
+      "id": 9,
+      "BookURL": "./images/placeholder.png",
+      "fullname": "Hello World",
+      "year": "20/02/2022",
+      "isbn": 55566,
+      "quantity": 7
+    }
+    
+  ]
+  }

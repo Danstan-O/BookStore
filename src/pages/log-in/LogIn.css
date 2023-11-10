@@ -1,0 +1,52 @@
+.LogIn {
+  height: 100%;
+  display: grid;
+  gap: 0;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.details {
+  text-align: center;
+}
+
+.title {
+  height: 30px;
+  color: #f8de6f;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.logo {
+  background-color: #f8de6f;
+
+  justify-content: center;
+  text-align: center;
+}
+
+.bank-text {
+  color: #343148;
+  height: 50%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .SignUp {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .title {
+    height: 28px;
+    font-size: 25px;
+  }
+  .logo {
+    display: none;
+  }
+
+  .details {
+    justify-content: center;
+    text-align: center;
+  }
+}
